@@ -1,0 +1,48 @@
+Natural Language Processing (NLP) is an important tool for understanding and
+processing the immense volume of unstructured data in today's world. Recently,
+deep learning has been widely adopted for many NLP tasks because of the
+remarkable performance that deep learning algorithms have shown in a plethora
+of challenging tasks, such as, image classification, speech recognition, and realistic
+text generation. TensorFlow, in turn, is one of the most intuitive and efficient deep
+learning frameworks currently in existence. This book will enable aspiring deep
+learning developers to handle massive amounts of data using NLP and TensorFlow.
+In this chapter, we will provide an introduction to NLP and to the rest of the book.
+We will answer the question, "What is Natural Language Processing?" Also, we'll
+look at some of its most important uses. We will also consider the traditional
+approaches and the more recent deep learning-based approaches to NLP, including
+a Fully-Connected Neural Network (FCNN). Finally, we will conclude with an
+overview of the rest of the book and the technical tools we will be using.
+According to IBM, 2.5 exabytes (1 exabyte = 1,000,000,000 gigabytes) of data were
+generated every day in 2017, and this is growing as this book is being written. To
+put that into perspective, if all the human beings in the world were to process that
+data, it would be roughly 300 MB for each of us every day to process. Of all this data,
+a large fraction is unstructured text and speech as there are millions of emails and
+social media content created and phone calls made every day.
+Introduction to Natural Language Processing
+These statistics provide a good basis for us to define what NLP is. Simply put, the
+goal of NLP is to make machines understand our spoken and written languages.
+Moreover, NLP is ubiquitous and is already a large part of human life. Virtual
+Assistants (VAs), such as Google Assistant, Cortana, and Apple Siri, are largely NLP
+systems. Numerous NLP tasks take place when one asks a VA, "Can you show me
+a good Italian restaurant nearby?". First, the VA needs to convert the utterance to
+text (that is, speech-to-text). Next, it must understand the semantics of the request
+(for example, the user is looking for a good restaurant with an Italian cuisine) and
+formulate a structured request (for example, cuisine = Italian, rating = 3-5, distance
+< 10 km). Then, the VA must search for restaurants filtering by the location and
+cuisine, and then, sort the restaurants by the ratings received. To calculate an overall
+rating for a restaurant, a good NLP system may look at both the rating and text
+description provided by each user. Finally, once the user is at the restaurant, the VA
+might assist the user by translating various menu items from Italian to English. This
+example shows that NLP has become an integral part of human life.
+It should be understood that NLP is an extremely challenging field of research as
+words and semantics have a highly complex nonlinear relationship, and it is even
+more difficult to capture this information as a robust numerical representation. To
+make matters worse, each language has its own grammar, syntax, and vocabulary.
+Therefore, processing textual data involves various complex tasks such as text
+parsing (for example, tokenization and stemming), morphological analysis, word
+sense disambiguation, and understanding the underlying grammatical structure of
+a language. For example, in these two sentences, I went to the bank and I walked along
+the river bank, the word bank has two entirely different meanings. To distinguish
+or (disambiguate) the word bank, we need to understand the context in which the
+word is being used. Machine learning has become a key enabler for NLP, helping to
+accomplish the aforementioned tasks through machines.
